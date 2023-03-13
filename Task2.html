@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Task2.css">
+    <title>Student Survey Form</title>
+    <link rel="icon" href="https://static.toiimg.com/thumb/msid-72422798,width-400,resizemode-4/72422798.jpg">
+     
+</head>
+<body>
+      <div class="container-fluid">
+        <img src="https://static.toiimg.com/thumb/msid-72422798,width-400,resizemode-4/72422798.jpg"></img>
+        <h1>Student Survey Form</h1>
+        <div class="scroller">
+        <form action="" autocomplete="off" oninput="x.value=parseInt(a.value),y.value=parseInt(c.value),z.value=parseInt(e.value),q.value=parseInt(g.value),r.value=parseInt(i.value)" name="myForm"
+         onsubmit="return validateForm()">
+        <fieldset>
+        <legend>Student Information:</legend>
+      
+      <label  class="title"  for="name">Name:</label><br>
+      <input type="text" id="name" name="fname" placeholder="Your name"size="55"><br><br>
+    
+      <label  class="title" for="age">Age:</label><br>
+      <input class="age" type="number" id="age" name="fage" placeholder="Your age"><br><br>
+    
+      <label  class="title" for="DOB">Date of Birth:</label><br>
+      <input class="age" type="date" id="DOB" name="fdob"><br><br>
+    
+      <label  class="title" for="email">Email Address:</label><br>
+      <input class="age" type="email" id="email" name="femail" placeholder="Your email"  autocomplete="off"  size="40"><br><br>
+    
+      <label  class="title" for="mobile no">Mobile number:</label><br>
+      <input class="age" type="number" id="mobile no" name="fmobile" placeholder="" size="40"><br><br>
+
+      <label  class="title" for="college">College:</label><br>
+      <select name="'fcollege" id="college">
+      <option>Sinhgad College of Engineering</option>
+      <option>Pune Institute of Computer Technology, Pune</option>
+      <option>COEP, Pune</option>
+      <option>Vishwakarma Institute of Technology</option>
+      <option>Pimpri Chinchwad College Of Engineering</option>
+      <option>Symbiosis Institute of Technology [SIT], Pune</option>
+      <option>MIT World Peace University</option>
+      <option>Bharati Vidyapeeth Deemed University College of Engineering</option>
+      <option>Dr D. Y. Patil Institute of Technology</option>
+      <option>Dr.Babasaheb Ambedkar College</option>
+      <option>MKSSS's Cummins College of Engineering for Women</option>
+      <option>MIT World Peace University</option>
+      <option>Army Institute of Technology, Pune</option>
+      <option>PES Modern College of Engineering (MCOE), Pune</option>
+      <option>JayawantraoSawant College of Engineering (JSCOE), Pune</option>
+      <option>Government College of Engineering and Research, Pune</option>
+      <option>Dhole Patil College of Engineering (DPCOE)</option>
+      <option>STES Smt Kashibai Navale College of Engineering, Pune</option>
+      <option>Maharashtra Institute of Technology (MIT Maharashtra), Pune</option>
+      </select><br><br>
+    
+      <label class="title" >Current year of education:</label><br>
+      <input type="radio" id="html" name="role-1" value="Student">
+      <label for="html">First Year</label><br>
+      <input type="radio" id="css" name="role-1" value="Professor">
+      <label for="css">Second Year</label><br>
+      <input type="radio" id="javascript" name="role-1" value="Developer">
+      <label for="javascript">Third Year</label><br>
+      <input type="radio" id="javascript" name="role-1" value="Developer">
+      <label for="javascript">Fourth Year</label><br><br>
+
+      <label  class="title" for="myfile">Upload your resume:</label><br>
+      <input id="resume" type="file" id="myfile" name="fresume" multiple><br><br>
+    
+      <label class="title"  for="linkedin url">Linkedin Profile URL:</label><br>
+      <input class="age" type="url" id="linkedin url" size="40" name="flinkedin"><br><br>
+
+      <label class="title"  for="github url">Github Profile URL:</label><br>
+      <input class="age" type="url" id="github url" size="40" name="fgithub"><br><br>
+
+      <label class="title" >Branch</label><br>
+      <input type="radio" id="computer" name="role-1" value="computer">
+      <label for="computer">Computer</label><br>
+      <input type="radio" id="it" name="role-1" value="IT">
+      <label for="it">IT</label><br>
+      <input type="radio" id="entc" name="role-1" value="ENTC">
+      <label for="entc">ENTC</label><br>
+      <input type="radio" id="mechanical" name="role-1" value="Mechanical">
+      <label for="mechanical">Mechanical</label><br>
+      <input type="radio" id="civil" name="role-1" value="Civil">
+      <label for="civil">Civil</label><br>
+      <input type="radio" id="chemical" name="role-1" value="Chemical">
+      <label for="chemical">Chemical</label><br><br>
+      
+      
+      <label  class="title" for="message">Queries (if Any)</label><br>
+      <textarea id="message" rows="5" cols="53" style="margin-top: 5px;" >
+      </textarea><br><br>
+    
+      <div class="button">
+      <input class="buttons" type="submit" value="Submit">
+      <input class="buttons" type="reset">
+      </div>
+      
+      </fieldset>   
+    </form>
+    </div>
+    </div>
+ 
+
+<script src="Task2.js"></script>
+
+</body>
+</html>
